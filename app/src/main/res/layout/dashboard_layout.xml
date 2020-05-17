@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_alignParentStart="true"
+            android:fontFamily="@font/gotham"
+            android:textStyle="bold"
+            android:id="@+id/pname"
+            android:text="ZuzuAuto Application"
+            android:textSize="16dp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="@font/gotham"
+            android:id="@+id/pbudget"
+            android:textStyle="bold"
+            android:text="₹2000/₹10000"
+            android:layout_marginRight="6dp"
+            android:textSize="14dp"></TextView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#615F5F"
+            android:id="@+id/releaseon"
+            android:layout_alignParentStart="true"
+            android:fontFamily="@font/gotham"
+            android:text="Released 12.02.2020"
+            android:textSize="15dp"></TextView>
+
+
+    <ImageView
+        android:id="@+id/progressBar"
+        android:layout_marginRight="6dp"
+
+        android:layout_width="140dp"
+        android:background="@drawable/pinitial"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentEnd="true"
+        android:layout_height="5dp" />
+
+</RelativeLayout>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_height="wrap_content"
+    android:src="@drawable/line"></ImageView>
+</LinearLayout>

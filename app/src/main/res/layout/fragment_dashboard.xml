@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DashboardFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="350dp"
+      android:background="@drawable/ic_group_10">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:src="@drawable/dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="53dp"
+        android:layout_height="30dp"></ImageView>
+      <ImageView
+          android:id="@+id/lavInsta2"
+          android:layout_width="300dp"
+          android:layout_height="150dp"
+       android:layout_marginTop="153dp"
+          android:src="@drawable/xxx"
+          android:layout_centerHorizontal="true"
+          android:layout_gravity="center"
+         />
+  </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_group_19"></ImageView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/dashboardRecycler"
+        android:layout_margin="12dp"
+        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+</LinearLayout>
